@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: black;
+    color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+    margin-left: 30px;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header{
+    display: flex;
+    padding: 30px 60px 0;
+    justify-content: space-between;
+}
+
+.nav__div{
+    margin-bottom: 20px;
+
+}
+
+main{
+    height: 90vh;
+    background-image: url(images/card1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+.main__div{
+    display: flex;
+    align-items: flex-end;
+    padding-top: 550px;
+    padding-left: 200px;
+}
+h1{
+    font-size: 40px;
+}
+
+.main__div img{
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.One{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.one__article1{
+    background-image: url(images/card2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+}
+    
+    
+
+.one__article1 div{
+    padding-left: 100px;
+    padding-top: 200px;
+}
+
+.one__article{
+    width: 50%;
+}
+
+
+
+.one__article p{
+    padding-left: 100px;
+    padding-top: 350px;
+    font-size: 24px;
+}
+
+
+
+
+.one__article2{
+    background-image: url(images/card3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+}
+
+
+
+.one__article p{
+    padding-left: 100px;
+    padding-top: 350px;
+    font-size: 24px;
+}
+
+
+
+.one__p{
+    margin-left: 60px;
+}
+
+
+.two{
+    display: flex;
+    justify-self: space-between;
+}
+
+
+.two p{
+    margin-left: 60px;
+}
+    
+
+
+
+  
